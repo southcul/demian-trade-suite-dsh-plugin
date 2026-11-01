@@ -1,3 +1,3 @@
 - insert:
     - id: demian-trade-suite-panel
-      name: '@local/demian-trade-suite-plugin'
+      name: 'dsh-plugin-demian-trade-suite'

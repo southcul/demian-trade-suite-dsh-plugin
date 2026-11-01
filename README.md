@@ -14,6 +14,14 @@
 
 ## 安装
 
+### 从 npm
+
+```bash
+dsh plugin --profile <profile> add dsh-plugin-demian-trade-suite
+```
+
+或使用官方桌面端：Settings → Plugins，搜索 `dsh-plugin-demian-trade-suite` 安装。刷新 DSH Web GUI 后，左侧栏出现 **「外贸工作台」**。
+
 ### 从 GitHub Release（推荐）
 
 1. 下载 [最新 Release](https://github.com/southcul/demian-trade-suite-dsh-plugin/releases) 里的 `demian-trade-suite-dsh-plugin.zip`

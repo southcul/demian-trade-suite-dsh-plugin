@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/demian-trade-suite-plugin',
+  id: 'dsh-plugin-demian-trade-suite',
   factory(require) {
     const React = require('react');
     const h = React.createElement;

@@ -1,10 +1,12 @@
 {
-  "name": "@local/demian-trade-suite-plugin",
-  "version": "1.0.0",
-  "private": true,
+  "name": "dsh-plugin-demian-trade-suite",
+  "version": "1.0.1",
   "type": "module",
   "description": "DSH panel for the offline foreign-trade documents and container-loading workbench.",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/southcul/demian-trade-suite-dsh-plugin.git"
