@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "Trade Desk",
+    "description": "Open the foreign-trade documents, container loading and quotation workbench inside DSH."
+  },
+  "panel": {
+    "label": "Trade Desk"
+  }
+}

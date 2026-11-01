@@ -1,0 +1,53 @@
+{
+  "name": "@local/demian-trade-suite-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH panel for the offline foreign-trade documents and container-loading workbench.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/southcul/demian-trade-suite-dsh-plugin.git"
+  },
+  "homepage": "https://github.com/southcul/demian-trade-suite-dsh-plugin",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "foreign-trade",
+    "export-documents",
+    "container-loading"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "README.md",
+    "LICENSE",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets/workbench.html"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  },
+  "scripts": {
+    "package": "python scripts/package.py"
+  }
+}

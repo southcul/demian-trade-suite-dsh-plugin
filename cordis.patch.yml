@@ -1,0 +1,3 @@
+- insert:
+    - id: demian-trade-suite-panel
+      name: '@local/demian-trade-suite-plugin'
